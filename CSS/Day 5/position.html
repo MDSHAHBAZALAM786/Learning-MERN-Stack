@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        #container{
+            width: 1000px;
+            margin: auto;
+            height: auto;
+        }
+        .one{
+            background-color: rgb(214, 214, 42);
+            width: 1000px;
+            height: 300px;
+        }
+        .two{
+            background-color: black;
+            width: 1000px;
+            height: 100px;
+            color: white;
+            /* position: relative; */
+            /* position: absolute; */
+            /* top: 100px; */
+            /* left: 100px; */
+        }
+        .three{
+            background-color: pink;
+            width: 1000px;
+            height: 350px;
+        }
+        .pic{
+            width: 1000px;
+            /* height: 300px; */
+            /* position: fixed; */
+            overflow: hidden;
+            /* top: 50px; */
+            /* right: 50px; */
+            /* opacity: 0.5; */
+            position: sticky;
+            top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="one">First Division</div>
+        <div class="pic">
+            <img src="/Images/blog.png" alt="" style="width: 1000px;">
+        </div>
+        <div class="two">Second Division</div>
+        <div class="three">Third Division</div>
+    </div>
+</body>
+</html>

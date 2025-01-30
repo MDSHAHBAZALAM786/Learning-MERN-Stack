@@ -1,0 +1,54 @@
+#container{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+header{
+    width: 1000px;
+    height: 200px;
+}
+
+.left{
+    width: 500px;
+    height: 420px;
+    float: left;
+    background-color: lightblue;
+}
+
+.right{
+    width: 500px;
+    height: 420px;
+    float: left;
+    background-color: lightcoral;
+}
+
+@media screen and (max-width:999px){
+    #container{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+        height: auto;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    .left{
+        width: 30%;
+    }
+    .right{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    
+}

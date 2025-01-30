@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="txt"></h1>
+    <script>
+        let obj=new Date()
+        let day=obj.getDay()
+        // alert(day)
+        switch(day){
+            case 1:
+                document.getElementById('txt').innerHTML="Today is <span>Monday</span>";
+                break;
+            case 2:
+                document.getElementById('txt').innerHTML="Today is <span>Tuesday</span>";
+                break;
+            case 3:
+                document.getElementById('txt').innerHTML="Today is <span>Wednesda</span>y";
+                break;
+            case 4:
+                document.getElementById('txt').innerHTML="Today is <span>Thursday</span>";
+                break;
+            case 5:
+                document.getElementById('txt').innerHTML="Today is <span>Friday</span>";
+                break;
+            case 6:
+                document.getElementById('txt').innerHTML="Today is <span>Saturday</span>";
+                break;
+            case 7:
+                document.getElementById('txt').innerHTML="Today is <span>Sunday</span>";
+                break;
+        }
+    </script>
+</body>
+</html>

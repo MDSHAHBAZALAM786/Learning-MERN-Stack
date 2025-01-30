@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <h1 id="txt">JavaScript</h1>
+    <button onclick="demo()">Change text color</button>
+    <script>
+        function demo(){
+            document.getElementById('txt').style.color='red'
+        }
+    </script> -->
+
+    <h1 id="txt">JavaScript</h1>
+    <button onclick="demo('red')">Red</button>
+    <button onclick="demo('green')">Green</button>
+    <button onclick="demo('blue')">Blue</button>
+    <script>
+        function demo(uid){
+            document.getElementById('txt').style.color=uid
+        }
+    </script>
+</body>
+</html>

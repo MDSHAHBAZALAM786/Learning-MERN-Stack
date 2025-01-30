@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Variables with number</h1>
+    <script>
+        // var a=100;
+        // var b=200;
+        // var c=a+b;
+        // console.log(a)
+        // document.write(a)
+        // document.write("<br>")
+        // document.write(b)
+        // document.write("<br>")
+        // document.write(c)
+
+        // var num1=prompt("Enter first number")
+        // var num2=prompt("Enter second number")
+        // // var result=num1*num2
+        // // document.write(result)
+        // // var result=num1/num2
+        // // document.write(result)
+        // // var result=num1-num2
+        // var result=Number(num1)+Number(num2)
+        // document.write(result)
+
+        var principal=prompt("Enter Principal Amount")
+        var percent=prompt("Enter rate of interest")
+        var result=principal*(percent/100)
+        // document.write(result)
+
+        document.write('<table  border="2px" width="400px" height="200px" align="center">')
+            document.write("<tr align='center'>")
+                document.write("<td>Principal Amount</td>")
+                document.write("<td>Rate of Interset</td>")
+                document.write("<td>Result</td>")
+            document.write("</tr>")
+            document.write("<tr align='center'>")
+                document.write("<td>"+principal+"</td>")
+                document.write("<td>"+percent+"</td>")
+                document.write("<td>"+result+"</td>")
+            document.write("</tr>")
+        document.write("</table>")
+    </script>
+</body>
+</html>

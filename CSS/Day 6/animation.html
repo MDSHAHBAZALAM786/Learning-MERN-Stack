@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        #cir{
+            width: 150px;
+            height: 150px;
+            background-color: red;
+            position: relative;
+            border-radius: 100%;
+            animation: demo 2s infinite;
+        }
+
+        @keyframes demo {
+            from{
+                left: 0px;
+                top: 0px;
+            }
+            to{
+                left: 1130px;
+                top: 500px;
+                background-color: green;
+                transform: scale(0.4);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="cir"></div>
+</body>
+</html>

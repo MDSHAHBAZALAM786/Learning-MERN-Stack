@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="uid" onblur="demo()">
+    <span id="txt"></span>
+    <br>
+    <script>
+        function demo(){
+            let x=document.getElementById('uid').value
+            if(x==""){
+                document.getElementById('txt').innerHTML="Enter Something"
+                document.getElementById('uid').style.background='red'
+            }else{
+                // alert(x)
+                document.getElementById('uid').style.background='yellow'
+
+            }  
+        }
+    </script>
+</body>
+</html>

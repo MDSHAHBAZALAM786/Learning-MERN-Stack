@@ -1,0 +1,17 @@
+.d{
+    width: 100px;
+    height: 40px;
+    background-color: red;
+    border-radius: 10px;
+    text-align: center;
+    /* transition: width 1.5s; */
+    transition: all 1.5s;
+    line-height: 40px;
+}
+.d:hover{
+    width: 150px;
+    cursor: pointer;
+    background-color: black;
+    color: red;
+    border: 1px solid red;
+}

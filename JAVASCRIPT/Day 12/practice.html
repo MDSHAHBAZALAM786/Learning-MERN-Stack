@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* table{
+            border-collapse: collapse;
+            margin: auto;
+            width: 300px;
+            height: 100px;
+            border: 2px solid red;
+            background-color: lightblue;
+        } */
+
+        img{
+            width: 300px;
+            height: 300px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1 id="txt"></h1>
+    <script>
+        let num1=prompt("Enter your first number")
+        let symbol=prompt("Enter your symbol +,-,*,/")
+        let num2=prompt("Enter your second number")
+        if(symbol== "+"){
+            document.getElementById("txt").innerHTML=Number(num1)+Number(num2)
+        }else if(symbol=="-"){
+            document.getElementById("txt").innerHTML=num1-num2
+        }else if(symbol=="*"){
+            document.getElementById("txt").innerHTML=num1*num2
+        }else if(symbol=="/"){
+            document.getElementById("txt").innerHTML=num1/num2
+        }else{
+            alert("Invalid Symbol")
+        }
+    </script> -->
+
+
+    <!-- <table border="2px">
+        <tr align="center">
+            <td>Salary</td>
+            <td>Tax amount</td>
+            <td>Take home salary</td>
+        </tr>
+        <tr align="center">
+            <td id="salary"></td>
+            <td id="tax"></td>
+            <td id="home"></td>
+        </tr>
+    </table>
+
+    <script>
+        let tax;
+        let home;
+        let salary=prompt("Enter your salary")
+        if(salary>=30000 && salary<=40000){
+            tax=salary*(5)/100
+            home=salary-tax
+            document.getElementById('salary').innerHTML=salary;
+            document.getElementById('tax').innerHTML=tax;
+            document.getElementById('home').innerHTML=home;
+        }else if(salary>40000 && salary<=50000){
+            tax=salary*(8)/100
+            home=salary-tax
+            document.getElementById('salary').innerHTML=salary;
+            document.getElementById('tax').innerHTML=tax;
+            document.getElementById('home').innerHTML=home;
+        }else{
+            tax=salary*(10)/100
+            home=salary-tax
+            document.getElementById('salary').innerHTML=salary;
+            document.getElementById('tax').innerHTML=tax;
+            document.getElementById('home').innerHTML=home;
+        }
+    </script> -->
+
+    <!-- <h1 id="txt"></h1>
+    <script>
+        let num1=prompt("Enter first number")
+        let num2=prompt("Enter second number")
+        let num3=prompt("Enter third number")
+        if(num1>num2){
+            if(num1>num3){
+                document.getElementById('txt').innerHTML="Greater number is:- "+num1
+            }else{
+                document.getElementById('txt').innerHTML="Greater number is:- "+num3
+            }
+        }else if(num2>num1){
+            if(num2>num3){
+                document.getElementById('txt').innerHTML="Greater number is:- "+num2
+            }else{
+                document.getElementById('txt').innerHTML="Greater number is:- "+num3
+            }
+        }else{
+            document.getElementById('txt').innerHTML="Greater number is:- "+num3
+        }
+    </script> -->
+
+    <!-- <select name="number" id="">
+        <script>
+            for (let i = 1; i <= 30; i++) {
+                document.write("<option>"+i+"</option>")
+            }
+        </script>
+    </select> -->
+
+    <!-- <script>
+        for(i=1;i<=5;i++){
+            document.write('<img src="/Images/a'+i+'.jpg">')
+        }
+    </script> -->
+
+    <select name="number" id="">
+        <script>
+            for (let i = 2025; i >= 1905; i--) {
+                document.write("<option>"+i+"</option>")
+            }
+        </script>
+    </select>
+</body>
+</html>

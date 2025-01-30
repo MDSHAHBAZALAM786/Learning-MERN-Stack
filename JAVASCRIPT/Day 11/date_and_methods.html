@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Date</h1>
+    <script>
+        // document.write(Date())
+
+        // const obj=new Date()
+        // document.write(obj.getHours())
+
+        // const obj=new Date()
+        // let h=obj.getHours()
+        // let m=obj.getMinutes()
+        // let s=obj.getSeconds()
+        // document.write(h+":"+m+":"+s)
+        // document.write("<br>")
+        // let date=obj.getDate()
+        // let month=obj.getMonth()+1
+        // let year=obj.getFullYear()
+        // document.write(date+"/"+month+"/"+year)
+
+        const obj = new Date()
+        let time = obj.toLocaleTimeString()
+        document.write(time+"<br>")
+        let date = obj.toLocaleDateString()
+        document.write(date+"<br>")
+        let day = obj.toLocaleString('en',{weekday:"long"})
+        document.write(day+"<br>")
+        let month = obj.toLocaleString('en',{month:"long"})
+        document.write(month)
+    </script>
+</body>
+</html>
