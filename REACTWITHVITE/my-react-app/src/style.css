@@ -1,0 +1,47 @@
+h1{
+    color: red;
+}
+h2{
+    color: green;
+}
+.head{
+    width: 700px;
+    margin-top: 0;
+    margin: auto;
+    color: red;
+    background-color: lightyellow;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle{
+    display: flex;
+    margin: auto;
+    width: 700px;
+    height: 300px;
+}
+.left{
+    float: left;
+    width: 200px;
+    background-color: aqua;
+}
+.right{
+    float: right;
+    width: 500px;
+    background-color: bisque;
+}
+.footer{
+    background-color: black;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    height: 100px;
+}
+.txt{
+    color: purple;
+}
