@@ -1,0 +1,22 @@
+[
+    {
+        "id":1,
+        "name":"Tiger",
+        "pic":"https://static.vecteezy.com/system/resources/thumbnails/036/324/708/small/ai-generated-picture-of-a-tiger-walking-in-the-forest-photo.jpg"
+    },
+    {
+        "id":2,
+        "name":"Tree",
+        "pic":"https://media.istockphoto.com/id/1317323736/photo/a-view-up-into-the-trees-direction-sky.jpg?s=612x612&w=0&k=20&c=i4HYO7xhao7CkGy7Zc_8XSNX_iqG0vAwNsrH1ERmw2Q="
+    },
+    {
+        "id":3,
+        "name":"Cloud",
+        "pic":"https://thumbs.dreamstime.com/b/incredibly-beautiful-sunset-sun-lake-sunrise-landscape-panorama-nature-sky-amazing-colorful-clouds-fantasy-design-115177001.jpg"
+    },
+    {
+        "id":4,
+        "name":"City",   
+        "pic":"https://cdn.imago-images.com/Images/header/hello-we-are-imago_03-2023.jpg"
+    }
+]
