@@ -1,0 +1,43 @@
+[
+    {
+        "id":1,
+        "name":"Hyderabd"
+    },
+    {
+        "id":2,
+        "name":"Secundearbad"
+    },
+    {
+        "id":3,
+        "name":"Patna"
+    },
+    {
+        "id":4,
+        "name":"Gaya"
+    },
+    {
+        "id":5,
+        "name":"Jehanabad"
+    },
+    {
+        "id":6,
+        "name":"Bengaluru"
+    },
+    {
+        "id":7,
+        "name":"Pune"
+    },
+    {
+        "id":8,
+        "name":"Mumbai"
+    },
+    {
+        "id":9,
+        "name":"Delhi"
+    },
+    {
+        "id":10,
+        "name":"Gurgaon"
+    }
+
+]
