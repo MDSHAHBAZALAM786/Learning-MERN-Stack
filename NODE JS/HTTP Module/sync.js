@@ -1,0 +1,5 @@
+const fs=require('fs')
+console.log("Program Started.....")
+const data = fs.readFileSync('demo.txt')
+console.log(data.toString())
+console.log("Program Ended....")
