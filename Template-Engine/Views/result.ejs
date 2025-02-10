@@ -1,0 +1,9 @@
+<h1>Result file</h1>
+<h1>Name is: <%= user.fn %></h1>
+<h1>Email is: <%= user.em %></h1>
+
+<% if(user && user.fn === "Shahbaz") { %>
+    <h2>Authorized User</h2>
+<% } else { %>
+    <h2>Unauthorized User</h2>
+<% } %>
